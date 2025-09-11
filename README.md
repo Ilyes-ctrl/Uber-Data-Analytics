@@ -33,3 +33,14 @@ key performance metrics 📏 and enhance overall operational efficiency 🚀.
 Each visualization in this dashboard was carefully designed to tackle a specific business problem, transforming raw ride-booking data into meaningful insights.
 By aligning every chart with a targeted question, the analysis provides a clear view of ride performance, customer and driver behaviors, operational efficiency, and revenue
 streams. But the real question is: how did I answer these challenges? Let’s dive into the insights behind each visualization.
+## 1. How many total bookings were made, and how many were successfully completed, canceled, or left incomplete?
+In order to provide a quick overview of ride activity and status distribution, I created KPI cards for `Total Bookings`, `Completed Rides`, `Cancelled by Customer`, `Cancelled by Driver`, and `Uncompleted Rides`. Using the `Booking ID` as the unique ride identifier, I applied count aggregations to calculate each total, then split them by `Booking Status`. I customized the visuals by adding icons for clarity, formatting the numbers with “K” units for large values, and applying rounded card shapes consistent with Uber’s brand style. To ensure interactivity, I linked the cards to global slicers for date and vehicle type.
+### Insights
+The KPIs reveal that out of 16.3M total bookings, about 10.1M rides were successfully completed while nearly 4M rides were lost due to cancellations or incompletions.
+Notably, driver-initiated cancellations (2.9M) are more than double those initiated by customers (1.1M), suggesting potential supply-side issues such as driver availability,
+incentive structures, or operational inefficiencies. The very low count of incomplete rides (1K) indicates that most issues occur before the trip starts. These insights help
+management identify cancellation hotspots and focus efforts on improving driver retention and reliability.
+
+![KPIs](/assets/1- kpi.png)
+
+*This KPI card set represents the overall booking performance, highlighting completed rides, cancellations, and incomplete trips.*
