@@ -44,3 +44,16 @@ management identify cancellation hotspots and focus efforts on improving driver 
 ![KPIs](/assets/1-kpi.png)
 
 *This KPI card set represents the overall booking performance, highlighting completed rides, cancellations, and incomplete trips.*
+## 2. What percentage of bookings are completed, canceled, or incomplete?
+The aim of this visualization is to evaluate the proportion of bookings that are successfully completed versus those that fail due to cancellations or incompletions. To
+achieve this, a donut chart was created with `Booking Status` as the legend and `Count of Booking ID` as the value. This approach highlights the percentage share of each
+booking outcome.
+### Insights
+The results show that completed rides form the majority with 62.1% (10.18K), confirming that most bookings reach successful completion. However, a considerable share of
+rides fails to convert: cancellations by drivers represent 17.7% (2.9K), cancellations by customers account for 7.1% (1.17K), no driver found cases represent 7.0% (1.14K),
+and incomplete bookings make up 6.1% (1K). Overall, this means nearly 38% of bookings remain unfulfilled, with driver-related cancellations being the most critical
+contributor to lost rides.
+
+![Donut Chart](/assets/2-bookingStatusDistribution.png)
+
+*This donut chart represents the distribution of booking statuses across all rides.*
