@@ -10,3 +10,17 @@ key performance metrics 📏 and enhance overall operational efficiency 🚀.
 - **📊 Dashboard Preview (PDF):** [uberBI.pdf](uberBI.pdf)
 - **📑 Dataset (Excel):** [uberBI.xlsx](uberBI.xlsx)
 - **🛠️ Power BI Template (PBIT):** [uberBI.pbit](uberBI.pbit)
+# Background
+### The Questions I Wanted to Answer Through This Project Were:
+1. How many total bookings were made, and how many were successfully completed, canceled, or left incomplete?
+2. What percentage of bookings are completed, canceled, or incomplete?
+3. Who cancels more rides, customers or drivers, and what are the main reasons?
+4. How do ride bookings vary over days, weeks, or months?
+5. How does driver arrival time compare with trip duration across different hours of the day?
+6. Which vehicle types are most popular among riders?
+7. How much distance is traveled by each vehicle category?
+8. Which vehicle types generate the highest revenue?
+9. Why do customers most frequently cancel rides?
+10. Why do drivers most frequently cancel rides?
+11. Which payment methods are most preferred by customers?
+12. What are the busiest pickup areas for rides?
