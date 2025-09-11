@@ -29,3 +29,7 @@ key performance metrics 📏 and enhance overall operational efficiency 🚀.
 - **📝 Excel:** Initial data exploration and cleaning
 - **⚡ Power BI:** Data transformation, KPI creation, and interactive dashboard design
 - **💻 GitHub:** Documentation and sharing the project
+# The Analysis
+Each visualization in this dashboard was carefully designed to tackle a specific business problem, transforming raw ride-booking data into meaningful insights.
+By aligning every chart with a targeted question, the analysis provides a clear view of ride performance, customer and driver behaviors, operational efficiency, and revenue
+streams. But the real question is: how did I answer these challenges? Let’s dive into the insights behind each visualization.
