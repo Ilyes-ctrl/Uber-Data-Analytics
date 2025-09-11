@@ -41,6 +41,6 @@ Notably, driver-initiated cancellations (2.9M) are more than double those initia
 incentive structures, or operational inefficiencies. The very low count of incomplete rides (1K) indicates that most issues occur before the trip starts. These insights help
 management identify cancellation hotspots and focus efforts on improving driver retention and reliability.
 
-![KPIs](/assets/1- kpi.png)
+![KPIs](/assets/1-kpi.png)
 
 *This KPI card set represents the overall booking performance, highlighting completed rides, cancellations, and incomplete trips.*
