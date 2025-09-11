@@ -24,3 +24,8 @@ key performance metrics 📏 and enhance overall operational efficiency 🚀.
 10. Why do drivers most frequently cancel rides?
 11. Which payment methods are most preferred by customers?
 12. What are the busiest pickup areas for rides?
+# Tools I Used
+- **📂 Kaggle:** Source of the Uber Rides dataset
+- **📝 Excel:** Initial data exploration and cleaning
+- **⚡ Power BI:** Data transformation, KPI creation, and interactive dashboard design
+- **💻 GitHub:** Documentation and sharing the project
