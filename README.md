@@ -107,6 +107,6 @@ vehicles—whereas larger or premium options (XL, Premier) see lower utilization
 allocation and driver incentives toward high-demand classes (Auto, Go Mini, Go Sedan), while considering targeted promotions or price adjustments to grow under-utilized
 segments (e.g., Uber XL, eBike) and monitoring supply constraints that could cause lost bookings.
 
-![Grouped Bar Chart](/assets/ridesByVehicleType.png)
+![Grouped Bar Chart](/assets/6-ridesByVehicleType.png)
 
 *This grouped bar chart represents the total number of bookings per vehicle type, comparing popularity across all available vehicle categories.*
