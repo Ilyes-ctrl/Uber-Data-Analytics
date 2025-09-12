@@ -71,3 +71,16 @@ designing targeted strategies to reduce cancellations and improve service reliab
 ![Stacked Bar Chart](/assets/3-rideCancellations.png)
 
 *This bar chart represents ride cancellations by customers and drivers*
+## 4. How do ride bookings vary over days, weeks, or months?
+In order to analyze how ride bookings vary across days, weeks, or months, I created a line chart. On the X-axis, I placed the `Date` field to capture the time dimension,
+while on the Y-axis, I used the `Count of Booking ID` to measure ride activity. To improve readability and highlight booking patterns, I applied a smooth line interpolation,
+ensuring the trend was easier to interpret.
+### Insights
+The chart shows that ride demand peaked notably during May 2024, where bookings consistently reached higher levels, likely due to increased travel activity during spring and
+early summer. In contrast, the lowest booking volumes appear in July 2024, where activity declined, possibly explained by holidays or reduced commuting patterns. Towards
+September and November 2024, booking levels stabilized but with moderate fluctuations, indicating a steady but balanced demand. These findings suggest strong seasonality in
+customer behavior, which businesses can leverage for staffing, promotions, and resource allocation.
+
+![Line Chart](/assets/4-ridesTrendOverTime.png)
+
+*This line chart represents the trend of ride bookings over time, highlighting periods of peak demand and seasonal declines.*
