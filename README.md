@@ -97,3 +97,16 @@ reallocate drivers toward hours with higher gap to improve service.
 ![secondLineChart](/assets/5-tripVSWait.png)
 
 *This line chart represents the hourly gap between average trip duration (CTAT) and average driver arrival time (VTAT), highlighting when trip time outstrips wait time and vice versa.*
+## 6. Which vehicle types are most popular among riders?
+In order to determine which vehicle types are most popular among riders, I created a grouped bar chart using the `Vehicle Type` field on the Y-axis and the
+`Count of Booking ID` on the X-axis; I configured the visual to aggregate booking counts per category, sorted the bars in descending order for immediate readability, enabled data labels for exact counts.
+### Insights
+The results show a clear preference for compact, economical options: Auto leads with 4.1K bookings, followed by Go Mini (3.3K) and Go Sedan (3.0K), while Uber XL registers
+the lowest demand (0.5K). This pattern likely reflects rider priorities in the dataset’s market—cost sensitivity, short urban trips, and high availability of smaller
+vehicles—whereas larger or premium options (XL, Premier) see lower utilization due to higher fares and narrower use cases. Operationally, this suggests prioritizing fleet
+allocation and driver incentives toward high-demand classes (Auto, Go Mini, Go Sedan), while considering targeted promotions or price adjustments to grow under-utilized
+segments (e.g., Uber XL, eBike) and monitoring supply constraints that could cause lost bookings.
+
+![Grouped Bar Chart](/assets/ridesByVehicleType.png)
+
+*This grouped bar chart represents the total number of bookings per vehicle type, comparing popularity across all available vehicle categories.*
