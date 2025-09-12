@@ -57,3 +57,17 @@ contributor to lost rides.
 ![Donut Chart](/assets/2-bookingStatusDistribution.png)
 
 *This donut chart represents the distribution of booking statuses across all rides.*
+## 3. Who cancels more rides, customers or drivers, and what are the main reasons?
+In order to determine who cancels more rides and identify the main reasons, I created a stacked bar chart. On the X-axis, I placed `Booking Status` to categorize
+rides as completed, cancelled by driver, cancelled by customer, no driver found, or incomplete. On the Y-axis, I used the count of `Booking ID` to measure the number of rides
+in each category. I also added `Reason for Cancelling by Driver` and `Reason for Cancelling by Customer` to the tooltips, enabling deeper drill-downs into the specific 
+causes of cancellations.
+### Insights
+The visualization highlights that drivers cancel significantly more rides (≈2.9K) compared to customers (≈1.1K), making driver cancellations the primary source of lost
+trips. “No driver found” (≈1.2K) further emphasizes operational gaps in ride availability. These results suggest that the majority of cancellations are on the supply side,
+potentially due to driver unavailability or operational inefficiencies, while customer-driven cancellations, though notable, remain secondary. This insight is key for
+designing targeted strategies to reduce cancellations and improve service reliability.
+
+![Stacked Bar Chart](/assets/3-rideCancellations.png)
+
+*This bar chart represents ride cancellations by customers and drivers*
