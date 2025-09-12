@@ -84,3 +84,16 @@ customer behavior, which businesses can leverage for staffing, promotions, and r
 ![Line Chart](/assets/4-ridesTrendOverTime.png)
 
 *This line chart represents the trend of ride bookings over time, highlighting periods of peak demand and seasonal declines.*
+## 5. How does driver arrival time compare with trip duration across different hours of the day?
+In order to assess how driver arrival time (VTAT) compares with trip duration (CTAT) across hours of the day, I created a smoothed line chart using a calculated 
+`Hour = HOUR('ncr_ride_bookings'[Time])` on the X-axis and the DAX measure `Diff_CTAT_VTAT = AVERAGE(ncr_ride_bookings[Avg CTAT]) - AVERAGE(ncr_ride_bookings[Avg VTAT])`
+on the Y-axis, with smoothing applied to reveal hourly patterns clearly.
+### Insights
+The chart shows the gap fluctuates roughly between ~19.5 and ~21.5 minutes, with a pronounced peak in the early morning (around hours 2–3) reaching ≈21.5 minutes, a dip near
+hour 4 to ≈19.5 minutes, and secondary peaks in the late afternoon/evening (~21.0–21.1); this suggests that during early-morning and evening peak windows trips tend to be
+longer relative to wait time (possible longer routes, traffic or supply constraints), while mid-period dips imply shorter trips or faster pickups — indicating opportunity to
+reallocate drivers toward hours with higher gap to improve service.
+
+![secondLineChart](/assets/5-tripVSWait.png)
+
+*This line chart represents the hourly gap between average trip duration (CTAT) and average driver arrival time (VTAT), highlighting when trip time outstrips wait time and vice versa.*
