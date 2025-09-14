@@ -110,3 +110,17 @@ segments (e.g., Uber XL, eBike) and monitoring supply constraints that could cau
 ![Grouped Bar Chart](/assets/6-ridesByVehicleType.png)
 
 *This grouped bar chart represents the total number of bookings per vehicle type, comparing popularity across all available vehicle categories.*
+## 7. How much distance is traveled by each vehicle category?
+In order to analyze the total distance traveled by each vehicle category, I created a grouped bar chart with `Vehicle Type` placed on the X-axis and `Ride Distance`
+on the Y-axis, where the ride distance values were aggregated using the SUM function. This setup allowed me to compare the cumulative travel distances across different
+vehicle categories and clearly highlight which types of vehicles account for the highest or lowest overall mileage.
+### Insights
+The analysis reveals that Autos lead with the highest total ride distance (70K), followed by Go Mini (56K) and Go Sedan (50K), showing their dominant role in covering urban
+travel demand. Bikes (39K) and Premier Sedans (34K) cover a moderate share, likely used for shorter urban commutes and mid-range trips, respectively. On the other hand,
+eBikes (20K) and Uber XL (8K) account for the lowest distances, which may be explained by their niche use: eBikes being limited to very short trips and XL vehicles being
+used rarely, mostly for group rides or special occasions. Overall, the demand distribution highlights how compact and cost-effective vehicles handle most of the urban
+travel load, while premium and specialty vehicles remain less utilized.
+
+![Ride Distance](/assets/7-totalRideDistanceByVehicleType)
+
+*This bar chart represents the total ride distance traveled across different vehicle categories.*
