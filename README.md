@@ -206,3 +206,27 @@ in these critical areas.
 - **Slicers for Interactive Filtering 📊:** I learned how to implement and customize slicers to allow users to dynamically filter data across all visualizations. This greatly enhanced the dashboard’s interactivity and user experience, making it easy to drill down into specific time frames, locations, or ride attributes.
 
 - **Navigation Buttons for user Experience 🔄:** This was my first time using bookmarks and buttons to create a seamless navigation experience between different dashboard pages. I designed an intuitive menu that helps users smoothly transition from overviews to detailed reports without confusion.
+
+# Conclusions
+1. **🛠️ Implement a Driver Support Hub to Reduce Cancellations**
+The analysis identifies driver-initiated cancellations as the most significant operational leak, primarily due to personal/vehicle issues and passenger policy violations.
+To address this, we recommend deploying an integrated Driver Support Hub within the app, featuring one-tap access to roadside assistance and a non-penalty reporting tool
+for policy breaches. This allows drivers to be reassigned while the system re-matches the rider, tackling the root causes by offering immediate support and preserving
+the booking. This strategy directly converts lost rides into completed trips and improves driver retention.
+
+2. **📍 Launch a Dynamic Incentive Program to Optimize Fleet Allocation**
+Demand is distributed across a network of hotspots, with a clear rider preference for compact vehicle types. To align supply with this demand, we propose a Dynamic Driver
+Incentive Program. This data-driven strategy leverages real-time heatmaps to push targeted alerts to drivers, guiding them to high-demand zones, and offers bonus incentives
+for drivers of high-utilization categories during predicted peak hours. This ensures optimal fleet allocation, minimizes "no driver found" incidents, reduces wait times,
+and maximizes revenue from the most popular service tiers.
+
+3. **💳 Accelerate the Shift to Digital Payments with Targeted Incentives**
+While UPI is the dominant payment method, a substantial portion of transactions still relies on cash, which is less efficient and secure. To accelerate the transition
+to higher-margin digital methods, we advise executing targeted UPI/Cashless Campaigns. These initiatives would offer discounts or cashback rewards for digital payments
+and could introduce a small convenience fee for cash transactions. This approach improves operational efficiency, speeds up the payment process for drivers, enhances
+security, and grows the adoption of the Uber Wallet.
+
+4. **📱 Enhance Pre-Booking UX to Minimize Customer Cancellations**
+The leading causes of customer cancellations are address errors and changes of plans. To mitigate these, we suggest introducing two key app features: an Address
+Confirmation Prompt before booking finalization and a 5-Minute Grace Period for free cancellations. By improving booking clarity and offering a small amount
+of flexibility, we can significantly reduce preventable cancellations, decrease rider frustration, and improve overall customer satisfaction.
