@@ -154,3 +154,19 @@ highlighting areas where customer experience can be improved.
 ![Customer Reasons](/assets/9-topCustomerCancellationReasons.png)
 
 *This bar chart represents the distribution of top customer cancellation reasons across total ride bookings.*
+## 10. Why do drivers most frequently cancel rides?
+To identify the primary causes of driver cancellations and address operational inefficiencies, I created this clustered bar chart. The visualization was built by first
+aggregating the booking data based on the documented cancellation reason provided by the driver through the app. The `Driver Cancellation Reason` field was placed
+on the categorical axis (x-axis), while the quantitative measure 'Number of Cancellations', represented by a distinct count of `Booking ID`, was plotted on the value axis
+(y-axis). This approach provides a clear, ranked comparison of the volume of cancellations attributable to each specific cause, allowing for immediate prioritization
+of issues.
+### Insights
+The data reveals that cancellations are nearly evenly distributed among the top four reasons, indicating no single overwhelming cause but a set of significant, parallel
+challenges. "Personal & Car related issues" is the leading cause (761 cancellations), suggesting a need for better vehicle maintenance support or more flexible policies
+for drivers facing unforeseen personal circumstances. The high rate of cancellations due to "The customer was coughing/sick" (736) and "More than permitted people in there"
+(725) are both customer-related safety and policy violations. This points to a potential gap in the pre-ride process; solutions could include implementing a more prominent
+passenger policy agreement pre-booking and a streamlined, in-app reporting system for drivers to flag these issues without canceling, allowing for faster rider re-matching.
+
+![Driver Reasons](/assets/10-topDriverCancellationReasons.png)
+
+*This bar chart represents the frequency of driver cancellations segmented by the primary reasons provided across all completed trips.*
