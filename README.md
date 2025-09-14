@@ -121,6 +121,6 @@ eBikes (20K) and Uber XL (8K) account for the lowest distances, which may be exp
 used rarely, mostly for group rides or special occasions. Overall, the demand distribution highlights how compact and cost-effective vehicles handle most of the urban
 travel load, while premium and specialty vehicles remain less utilized.
 
-![Ride Distance](/assets/7-totalRideDistanceByVehicleType)
+![Ride Distance](/assets/7-rideDistanceByVehicleType.png)
 
 *This bar chart represents the total ride distance traveled across different vehicle categories.*
