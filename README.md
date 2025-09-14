@@ -124,3 +124,17 @@ travel load, while premium and specialty vehicles remain less utilized.
 ![Ride Distance](/assets/7-rideDistanceByVehicleType.png)
 
 *This bar chart represents the total ride distance traveled across different vehicle categories.*
+## 8. Which vehicle types generate the highest revenue?
+In order to determine which vehicle categories contribute the most to platform revenue, I created this treemap by placing `Vehicle Type` as the category and using
+the sum of `Booking Value` as the measure; the treemap visual was chosen for its ability to convey proportional contributions at a glance, so I configured the visual
+to display both absolute values and relative area.
+### Insights
+The treemap shows that compact vehicle classes drive the bulk of revenue: Auto leads with approximately 1.40M in booking value, followed by Go Mini (~1.17M) and Go Sedan
+(~1.05M), while Bike (~0.83M) and Premier Sedan (~0.70M) contribute moderate shares and eBike (~0.40M) and Uber XL (~0.16M) are the smallest contributors; this pattern
+indicates that high-frequency, short-to-mid distance services generate the largest aggregate revenue (volume × fare), whereas premium or niche categories (XL, eBike)
+produce less total revenue due to lower utilization despite potentially higher per-ride fares—insight that suggests prioritizing fleet allocation, driver incentives
+and promotional spend toward high-performing vehicle classes while exploring targeted strategies (pricing, bundles, marketing) to grow underutilized segments.
+
+![Treemap](/assets/8-bookingValueContributionByVehicleType.png)
+
+*This treemap represents the booking value contribution by vehicle type across the platform, illustrating which vehicle categories generate the highest share of total revenue.*
