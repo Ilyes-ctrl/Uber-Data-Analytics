@@ -138,3 +138,19 @@ and promotional spend toward high-performing vehicle classes while exploring tar
 ![Treemap](/assets/8-bookingValueContributionByVehicleType.png)
 
 *This treemap represents the booking value contribution by vehicle type across the platform, illustrating which vehicle categories generate the highest share of total revenue.*
+## 9. Why do customers most frequently cancel rides?
+In order to determine why customers most frequently cancel rides, I created a bar chart that displays the number of cancellations across different reasons provided
+by customers. The data was grouped by cancellation reason, with each reason aggregated based on its total count of cancellations, and then plotted along the x-axis
+while the frequency was shown on the y-axis. This visualization clearly highlights the leading factors driving cancellations, making it easier to identify
+both customer-driven and driver-driven issues.
+### Insights
+The analysis reveals that the most common reason for cancellations is “Wrong Address” with 274 cases, indicating possible issues with inaccurate customer inputs or GPS
+mapping errors. “Change of plans” and “Driver not moving towards pickup location” both follow closely with 252 cancellations each, reflecting the unpredictability
+of customer behavior as well as operational inefficiencies on the driver’s side. Additionally, “Driver asked to cancel” (240) shows that some drivers themselves contribute
+to cancellations, potentially due to scheduling conflicts or mismatched ride preferences. Finally, “AC is not working” is significantly lower at 121 cancellations,
+suggesting that service quality issues are less frequent but still noteworthy. Overall, cancellations stem from both system inefficiencies and human factors,
+highlighting areas where customer experience can be improved.
+
+![Customer Reasons](/assets/9-topCustomerCancellationReasons.png)
+
+*This bar chart represents the distribution of top customer cancellation reasons across total ride bookings.*
