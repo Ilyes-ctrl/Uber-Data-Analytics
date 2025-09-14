@@ -185,3 +185,19 @@ and improve driver satisfaction, strategic initiatives could include promoting U
 ![Payment Method](/assets/11-paymentMethodDistribution.png)
 
 *This pie chart represents the percentage distribution of trip bookings segmented by the chosen payment method across the customer base.*
+## 12. What are the busiest pickup areas for rides?
+To identify high-demand zones and optimize driver allocation and surge pricing models, I created this horizontal bar chart. The visualization was built by aggregating
+the complete trip dataset based on the `Pickup Location` field. The distinct count of `Booking ID` was plotted on the x-axis to quantify the total number of rides
+originating from each area, while the corresponding location names were listed on the y-axis. This horizontal orientation was selected to improve the readability
+of the longer location labels, allowing for a clear, ranked comparison of transaction volume across the top metropolitan hotspots.
+### Insights 
+The data reveals a highly competitive landscape of demand, with the top seven pickup locations all generating a very similar volume of rides, clustered between 109 and 117
+trips. Subhash Chowk is the busiest area with 117 rides, but it is closely followed by Barakhamba Road (112) and Jahangirpuri Road (110). This indicates that demand
+is not concentrated in a single central business district but is distributed across several commercial, market, and residential hubs like Khan Market, Punjabi Bagh,
+and Shivaji Park. The presence of Panipat suggests significant demand from satellite cities. To capitalize on this, operations strategy should focus on dynamic driver
+incentives to ensure adequate supply across this distributed network of hotspots, especially during peak hours, to minimize wait times and prevent lost demand
+in these critical areas.
+
+![Pickup Locations](/assets/12-topPickupLocations.png)
+
+*This horizontal bar chart represents the total volume of rides originating from the most frequented pickup locations across the operational network.*
