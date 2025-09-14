@@ -201,3 +201,8 @@ in these critical areas.
 ![Pickup Locations](/assets/12-topPickupLocations.png)
 
 *This horizontal bar chart represents the total volume of rides originating from the most frequented pickup locations across the operational network.*
+
+# What I Learned
+- **Slicers for Interactive Filtering 📊:** I learned how to implement and customize slicers to allow users to dynamically filter data across all visualizations. This greatly enhanced the dashboard’s interactivity and user experience, making it easy to drill down into specific time frames, locations, or ride attributes.
+
+- **Navigation Buttons for user Experience 🔄:** This was my first time using bookmarks and buttons to create a seamless navigation experience between different dashboard pages. I designed an intuitive menu that helps users smoothly transition from overviews to detailed reports without confusion.
