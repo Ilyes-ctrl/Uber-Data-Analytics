@@ -7,6 +7,7 @@ and improve decision-making 💡. With intuitive navigation 🔘 and slicers �
 key performance metrics 📏 and enhance overall operational efficiency 🚀.
 
 🔗 Want to explore the project?
+- **🎥 Video Walkthrough (YouTube):** [Watch The Dashboard in Action](https://www.youtube.com/watch?v=pMt3A_Tkm38)
 - **📊 Dashboard Preview (PDF):** [uberBI.pdf](uberBI.pdf)
 - **📑 Dataset (Excel):** [uberBI.xlsx](uberBI.xlsx)
 - **🛠️ Power BI Template (PBIT):** [uberBI.pbit](uberBI.pbit)
