@@ -170,3 +170,18 @@ passenger policy agreement pre-booking and a streamlined, in-app reporting syste
 ![Driver Reasons](/assets/10-topDriverCancellationReasons.png)
 
 *This bar chart represents the frequency of driver cancellations segmented by the primary reasons provided across all completed trips.*
+## 11. Which payment methods are most preferred by customers?
+In order to determine customer preference for transaction methods and guide strategic partnerships and platform development, I created this pie chart. The visualization
+was built by categorizing the complete booking history dataset based on the `Payment Method` field selected at the time of trip completion. The values were calculated
+as a percentage of total bookings, with each segment sized proportionally to represent its share of the total transaction volume. A distinct count of `Booking ID`
+was used as the metric to ensure each transaction was only counted once, providing a clear and immediate visual representation of payment method prevalence.
+### Insights
+The data reveals an overwhelming and decisive preference for digital wallets, with UPI accounting for 45.39% of all transactions, making it the dominant payment method
+by a significant margin. This is followed by traditional Cash payments at 25.11%, indicating a substantial segment of the user base still relies on physical currency.
+The Uber Wallet holds a strong third place at 11.88%, suggesting that loyalty programs and prepaid benefits are effective. Credit and Debit cards collectively represent
+less than 18% of transactions. The key insight is the market's strong inclination towards fast, seamless digital payment systems like UPI. To further reduce cash handling
+and improve driver satisfaction, strategic initiatives could include promoting UPI and Wallet usage through targeted discounts or cashback incentives.
+
+![Payment Method](/assets/11-paymentMethodDistribution.png)
+
+*This pie chart represents the percentage distribution of trip bookings segmented by the chosen payment method across the customer base.*
